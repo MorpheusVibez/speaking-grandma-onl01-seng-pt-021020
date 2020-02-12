@@ -8,7 +8,7 @@ def speak_to_grandma(phrase)
   elsif phrase == phrase
     "HUH?! SPEAK UP, SONNY!"
   else 
-    "I LOVE YOU TOO PUMPKIN!"
+    ""
   end
  binding.pry
 end
