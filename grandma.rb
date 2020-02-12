@@ -1,5 +1,5 @@
 def speak_to_grandma(phrase)
-  if phrase == "#{phrase}".capitalize
+  if phrase == "#{phrase}".upcase
     "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == "Hi Nana, how are you?"
     "HUH?! SPEAK UP, SONNY!"
