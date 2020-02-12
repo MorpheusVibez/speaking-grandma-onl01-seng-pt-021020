@@ -1,4 +1,4 @@
-
+require "pry"
 
 def speak_to_grandma(phrase)
   if phrase == phrase.upcase
@@ -9,7 +9,6 @@ def speak_to_grandma(phrase)
     "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase
     "NO, NOT SINCE 1938!"
-  
   end
 end
-  
+  binding.pry
