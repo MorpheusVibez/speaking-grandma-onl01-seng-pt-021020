@@ -1,7 +1,6 @@
 
 
 def speak_to_grandma(phrase)
-  phrase = "WHAT DID YOU EAT TODAY?"
   if phrase == phrase.upcase
     "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == phrase.capitalize
