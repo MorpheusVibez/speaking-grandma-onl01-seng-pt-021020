@@ -10,6 +10,5 @@ def speak_to_grandma(phrase)
   elsif phrase == phrase
     "NO, NOT SINCE 1938!"
   end
-  binding.pry
 end
   
