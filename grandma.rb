@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def speak_to_grandma(phrase)
   if phrase == phrase.upcase
@@ -10,6 +10,6 @@ def speak_to_grandma(phrase)
   else 
     "I LOVE YOU TOO PUMPKIN!"
   end
- 
+ binding.pry
 end
   
